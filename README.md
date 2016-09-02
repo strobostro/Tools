@@ -3,3 +3,6 @@ Multihash is a simple quick & dirty python script to calculate various hashes (m
 Multihash requires the following python modules: sys, hashlib, pydeep, json, urllib, urllib2, collections (Counter) and argparse
 
 Usage: python multihash.py <input_file_path>
+
+Enter your VT API key at the following line:
+parameters = {"resource": sha256hash.hexdigest(),"apikey": "<your_vt_api_key_here>"}
